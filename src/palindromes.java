@@ -9,7 +9,12 @@ public class palindromes {
         int i = x.length();
 
         for (int k = 1 ; k <= 0 ; k-- ) {
-            y = y + x
+            y = y + x.charAt(k);
+        }
+        if (x.equalsIgnoreCase(y)){
+            System.out.println("the string is palindromes.");
+        } else {
+            System.out.println("the string is not palindromes.");
         }
     }
 }
