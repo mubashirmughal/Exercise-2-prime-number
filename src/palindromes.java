@@ -12,9 +12,9 @@ public class palindromes {
             y = y + x.charAt(k);
         }
         if (x.equalsIgnoreCase(y)){
-            System.out.println("the string is palindromes.");
-        } else {
             System.out.println("the string is not palindromes.");
+        } else {
+            System.out.println("the string is palindromes.");
         }
     }
 }
