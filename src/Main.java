@@ -1,14 +1,11 @@
+// program to print all prime numbers between 0 to N
 import java.util.Scanner;
 
 class gfg {
-
     static void prime_N(int N)
     {
         int x, y, flg;
-
-        System.out.println(
-                "All the Prime numbers within 1 and " + N
-                        + " are:");
+        System.out.println("All the Prime numbers within 1 and " + N + " are:");
 
         for (x = 1; x <= N; x++) {
 
