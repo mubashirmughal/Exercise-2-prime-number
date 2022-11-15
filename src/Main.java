@@ -27,10 +27,9 @@ class gfg {
 
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
-        int N = sc.nextInt();
-
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Please enter a number: ");
+       int N = sc.nextInt();
         prime_N(N);
     }
 }
